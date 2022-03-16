@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="10886" started-at="2022-03-16T04:11:00Z" finished-at="2022-03-16T04:11:11Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="10886" started-at="2022-03-16T04:11:00Z" finished-at="2022-03-16T04:11:11Z">
+      <class name="SDET_Uma.RestAssured_Project.projectwork">
+        <test-method status="PASS" signature="createuser()[pri:0, instance:SDET_Uma.RestAssured_Project.projectwork@4034c28c]" name="createuser" duration-ms="4700" started-at="2022-03-16T04:11:00Z" finished-at="2022-03-16T04:11:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createuser -->
+        <test-method status="PASS" signature="login()[pri:0, instance:SDET_Uma.RestAssured_Project.projectwork@4034c28c]" name="login" duration-ms="1605" started-at="2022-03-16T04:11:05Z" finished-at="2022-03-16T04:11:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:SDET_Uma.RestAssured_Project.projectwork@4034c28c]" name="logout" duration-ms="1517" started-at="2022-03-16T04:11:07Z" finished-at="2022-03-16T04:11:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="modifyuser()[pri:0, instance:SDET_Uma.RestAssured_Project.projectwork@4034c28c]" name="modifyuser" duration-ms="1468" started-at="2022-03-16T04:11:08Z" depends-on-methods="SDET_Uma.RestAssured_Project.projectwork.createuser" finished-at="2022-03-16T04:11:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modifyuser -->
+        <test-method status="PASS" signature="deleteuser()[pri:0, instance:SDET_Uma.RestAssured_Project.projectwork@4034c28c]" name="deleteuser" duration-ms="1539" started-at="2022-03-16T04:11:10Z" depends-on-methods="SDET_Uma.RestAssured_Project.projectwork.modifyuser" finished-at="2022-03-16T04:11:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteuser -->
+      </class> <!-- SDET_Uma.RestAssured_Project.projectwork -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
